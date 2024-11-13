@@ -1,0 +1,220 @@
+:root {
+    --color-principal-lila: #C8A2C8;
+    --background-color: #F5F5F5;
+    --shadow-color: #A18DAA;
+    --section-color: #E6E6FA;
+    --tipoGrafia-titulo: 'Lobster Two';
+    --tipoGrafia-text: 'Host Grotesk';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 7px;
+    background-color: var(--background-color);
+}
+
+header div{
+    display: flex;
+
+}
+.info-top {
+    display: flex;
+    background-color: var(--color-principal-lila);
+    box-shadow: 0px 4px 10px 3px var(--shadow-color);
+    border-radius: 0 0 15px 15px;
+    padding: 20px 10px;
+}
+
+.cabecera {
+
+    padding: 0 10px 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 4px 10px 3px var(--shadow-color);
+    background-color: var(--color-principal-lila);
+}
+
+.h1 {
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    color: #4B0082;
+}
+.h2 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: #290046;
+    translate: 10px 0;
+}
+.img1 img {
+    margin: 0;
+    padding: 0 30px;
+    width: 120px;
+}
+
+.product p {
+    font-family: var(--tipoGrafia-text);
+    
+}
+.info-h {
+
+    font-family: var(--tipoGrafia-titulo);
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+}
+
+#navbar {
+    background-color: var(--section-color);
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    margin: 10 px;
+    box-shadow: 0px 4px 10px 3px var(--shadow-color);
+    border-radius: 10px;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 10px 125px;
+    color: #4B0082;
+    transition: all 0.5s;
+    border-radius: 5px;
+    font-family: var(--tipoGrafia-text);
+}
+
+#navbar a:hover {
+
+    background-color: var(--color-principal-lila);
+    color: #F5F5F5;
+}
+
+.subtitulo {
+    border-bottom: 5px solid var(--color-principal-lila);
+    color: #4B0082;
+}
+
+.rodio {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: #f8daf8;
+    box-shadow: 0px 4px 5px 3px var(--shadow-color);
+    border-radius: 10px;
+    font-family: var(--tipoGrafia-text);
+    font-size: 20px;
+
+}
+
+.titulo-productos {
+
+    text-align: center;
+    border-bottom: 10px solid #dabada;
+    font-family: var(--tipoGrafia-titulo);
+    font-size: 50px;
+    background-color: #4B0082;
+    color: var(--background-color);
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 0 5px;
+
+}
+.titulo-productos h3 {
+    padding-bottom: 5px;
+    margin: 10px;
+    translate: 0 5px;
+}
+
+.img-product {
+
+    width: 250px;
+    height: 300px;
+    border: 3px solid var(--shadow-color);
+    border-radius: 20px;
+}
+.imagen-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: var(--section-color);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 3px var(--shadow-color);
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dabada;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+.product h4 {
+    font-size: 20px;
+    font-family: var(--tipoGrafia-titulo);
+    margin: 5px;
+}
+
+.product:hover {
+    box-shadow: 0px 4px 5px 3px var(--shadow-color);
+    transform: scale(1.05)
+}
+
+button.agregar {
+    font-family: var(--tipoGrafia-text);
+    font-size: 20px;
+    color: #4B0082;
+    width: 250px;
+    background-color: #C8A2C8;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 3px var(--shadow-color);
+    transition: all 0.5s;
+}
+
+button.agregar:hover {
+    background-color: #4B0082;
+    color: var(--background-color);
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.ver-mas button {
+    color: #4B0082;
+    font-family: var(--tipoGrafia-text);
+    font-size: 20px;
+    width: 99%;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #dabada;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.ver-mas button:hover {
+    background-color: #4B0082;
+    color: var(--background-color);
+}
+
+
+
+
